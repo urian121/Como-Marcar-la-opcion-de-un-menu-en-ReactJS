@@ -6,7 +6,7 @@
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/marcar-la-option-menu-en-reactjs.png)
 
-### Expresiones de Gratitud 🎁
+## Expresiones de Gratitud 🎁
 
     Comenta a otros sobre este proyecto 📢
     Invita una cerveza 🍺 o un café ☕
