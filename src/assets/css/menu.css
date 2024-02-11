@@ -1,0 +1,61 @@
+@import "https://fonts.googleapis.com/css?family=Fira+Sans:300,400";
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #f9f7fe;
+}
+
+/* header */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+ul li a {
+  display: block;
+  padding: 20px 30px;
+  border-right: 1px solid #f4f4f4;
+  text-decoration: none;
+}
+ul li:hover {
+  cursor: pointer;
+  background-color: #f1f0f0;
+}
+/* menu */
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  clear: both;
+  transition: max-height 0.2s ease-out;
+  max-height: none;
+}
+
+/* Estilo para las opciones activas */
+li.active {
+  border-bottom: 3px solid #007bff;
+  background-color: #c6c6c6;
+  color: #333 !important;
+}
+
+li:not(.active) a {
+  color: #222;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40vh;
+}
